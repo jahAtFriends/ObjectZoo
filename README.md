@@ -33,4 +33,26 @@ public ArrayList<Object> getAllAnimlas(){} //Returns an ArrayList containing all
 ```
 
 ### Animals
+Animals should also have only private fields. They should also _all_ have the following methods:
 
+```java
+public Color getColor(){} //Returns the Color of the animal.
+public int getWeight(){} //Returns the Weight of the given animal.
+public void eat(int w){} //Causes the animal to eat and increases its weight by w.
+public boolean isMale(){} //Returns if the animal is male.
+public boolean isFemale(){} //For gender equality returns if the animal is female.
+public void speak(){} //Returns the speech of the animal according to its definition.
+public static void population(){} returns the number of animals of that class that have been created.
+```
+
+#### Speak() method
+The following is a description of how each animal should speak.
+* Cat prints "Meow!" to the terminal.
+* Lion prints "Roar!" to the terminal.
+* Deer prints "Deer Sounds!" to the terminal.
+* Moose prints "Moose Sounds!" to the terminal.
+* Chimpanzee prints "Oo oo aa aa!" to the terminal.
+
+Printing is always done on _its own line_.
+
+#### Overriding Methods
