@@ -15,7 +15,7 @@ fields, methods, and constructors.
 ## Class Descriptions
 
 Below is the _API_ for each class you will need to design for this project.
-You will also need the Javadocs for the included `Color` class.
+You will also need the [Javadocs](https://friendsbaltcs.github.io/docs/Intro/ObjectFarm/Color.html) for the included `Color` class.
 
 ### Zoo
 All fields of the Zoo should be _private_. it should also implement the 
