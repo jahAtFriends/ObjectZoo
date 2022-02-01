@@ -59,3 +59,13 @@ Printing is always done on _its own line_.
 When one method overrides the method of a parent class, the `@Override` tag should be used
 directly above the method heading. The `speak()` method in particular should always override
 its superclass (when there is one).
+
+When possible classes should _inherit_ and not override their parent's method.
+
+### Constructors
+Your zoo and animal classes should all have no-args constructors. Additionally, each animal should
+have _at least_ a constructor which takes only a Color, for example:
+
+```java
+public Moose(Color x) //returns a Moose of the given color.
+```
