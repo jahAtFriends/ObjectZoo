@@ -42,7 +42,7 @@ public void eat(int w){} //Causes the animal to eat and increases its weight by 
 public boolean isMale(){} //Returns if the animal is male.
 public boolean isFemale(){} //For gender equality returns if the animal is female.
 public void speak(){} //Returns the speech of the animal according to its definition.
-public static void population(){} returns the number of animals of that class that have been created.
+public static int population(){} returns the number of animals of that class (or its subclasses) that have been created.
 ```
 
 #### Speak() method
@@ -56,3 +56,6 @@ The following is a description of how each animal should speak.
 Printing is always done on _its own line_.
 
 #### Overriding Methods
+When one method overrides the method of a parent class, the `@Override` tag should be used
+directly above the method heading. The `speak()` method in particular should always override
+its superclass (when there is one).
